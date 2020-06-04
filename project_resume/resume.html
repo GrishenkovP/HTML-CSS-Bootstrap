@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Resume</title>
+<!-- Подключаем Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!-- JS, Popper.js, and jQuery -->
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+</head>
+<body> 
+    <div class="container">
+        <header><div class="p-3 mb-2 bg-secondary text-white text-center"><h5>Резюме</h5></div></header>
+        <!-- Фото, ФИО и контакты -->
+        <div class="row">
+          <div class="col-3">
+            <div class="text-center">
+                <img src="img/foto.png" class="img-fluid" alt="Фото">
+              </div>
+          </div>
+          <div class="col-9">
+           <p><h2>Иванов Иван Иванович</h2></p>
+           <p class="text-black-50"><strong>Блог:</strong> admin.com<br>
+              <strong>GitHub:</strong> admin<br>
+              <strong>тел:</strong> +7 (495) 000-00-00<br>
+              <strong>e-mail:</strong> admin@admin.com<span class="badge badge-secondary">Основной вариант для связи</span><br>
+              <strong>Skype:</strong> admin<br>
+              
+           </p>
+          </div>
+        </div>
+        <!-- Пожелание к работе -->
+        <p><h5 class="text-black-50" >Желаемая должность и заработная плата</h5></p>
+        <hr>
+        <div class="row">
+          <div class="col-3">
+            <h6>Должность</h6>
+            <p>Веб-разработчик</p>
+          </div>
+          <div class="col-3">
+            <h6>Занятость</h6>
+            <p>Проектная</p>
+          </div>
+          <div class="col-3">
+            <h6>График работы</h6>
+            <p>Удаленная работа с гибким графиком</p>
+          </div>
+          <div class="col-3">
+            <h6>Заработная плата</h6>
+            <p>По договоренности</p>
+          </div>  
+        </div>
+        <!-- Обучение -->
+        <p><h5 class="text-black-50">Образование, курсы, сертификаты </h5></p>
+        <hr>
+        <div class="row">
+          <div class="col">
+            <ul>
+              <li>МГУ (2008)</li>
+              <li>Школа верстки и дизайна (2009)</li>
+              <li>Академия программирования и проектирования БД (2010)</li>
+             </ul>        
+          </div>   
+      </div>
+        <!-- Скиллы -->
+          <p><h5 class="text-black-50">Основные навыки</h5></p>
+          <hr>
+          <div class="row">
+            <div class="col">
+              <h6>Фронтенд</h6>
+              <ul>
+                <li>HTML и CSS (в том числе Bootstrap) <span class="badge badge-success">Проф</span></li>
+                <li>JavaScript (в том числе JQuery) <span class="badge badge-success">Проф</span></li>
+                <li>Vue.js - средний уровень (3 проекта)</li>
+                <li>React.js - начальный уровень (1 проект)</li>
+               </ul>
+               <h6>Бэкенд</h6>
+               <ul>
+                 <li>Django (в том числе Django REST API) <span class="badge badge-success">Проф</span></li>
+                 <li>Flask - средний уровень (5 проектов)</li>
+                 <li>PostgreSQL, MySQL</li>
+                </ul>
+                <h6>Прочие инструменты</h6>
+                <ul>
+                  <li>Celery, Redis, RabbitMQ</li>
+                  <li>Git</li>
+                  <li>Docker</li>
+                 </ul>
+                 <h6>Дополнительная информация</h6>
+                <ul>
+                  <li>Английский - свободное владение</li>
+                 </ul>
+            </div>   
+        </div>
+        <!-- Ключевые проекты -->
+        <p><h5 class="text-black-50">Реализованные проекты</h5></p>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <div class="card-deck">
+                    <div class="card text-center">
+                      <img src="img/project.png" class="card-img-top" alt="Блог">
+                      <div class="card-body">
+                        <h5 class="card-title">Блог для бизнесмена</h5>
+                        <p class="card-text">Разработка блога для предпринимателя, входящего в топ-100 богатейших людей России. Фронтенд
+                            проекта был реализован на Vue.js, бэкенд на Django.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Фронтенд</small>
+                      </div>
+                    </div>
+                    <div class="card text-center">
+                      <img src="img/project.png" class="card-img-top" alt="Магазин">
+                      <div class="card-body">
+                        <h5 class="card-title">Интернет-магазин игр</h5>
+                        <p class="card-text">Бэкенд проекта включал в себя связку Flask, Celery, RabbitMQ. Основной базой данных выбрана 
+                            PostgreSQL.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Бэкенд</small>
+                      </div>
+                    </div>
+                    <div class="card text-center">
+                      <img src="img/project.png" class="card-img-top" alt="Портал">
+                      <div class="card-body">
+                        <h5 class="card-title">Финансовый портал</h5>
+                        <p class="card-text">Разработка бизнес-портал для крупнейшей фин.-тех. компании России. 
+                            Руководство командой из 3 веб-программистов. Данный проект находится на стадии завершения.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Полная разработка</small>
+                      </div>
+                    </div>
+                  </div>
+            </div>  
+        </div>
+        <footer><p><div class="p-3 mb-2 bg-secondary text-white text-center">Москва, 2020</div></p></footer>
+    </div>
+</body>
+</html>
